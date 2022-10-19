@@ -1,5 +1,6 @@
+import { v4 as uuidv4 } from 'uuid';
  const ar1=[
-    {
+    {   id: uuidv4(),
         src:'./assets/images/dumplings.jpg',
         name:'"Homemade" dumplings',
         discription:'Vareniki with mashed potatoes and fried chanterelles',
@@ -7,6 +8,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/soup.jpg',
         name:'Soup',
         discription:'Potatoes, carrots, onions, green onions',
@@ -14,6 +16,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/burger.jpg',
         name:'Burger',
         discription:'Beef, lettuce, pickle, tomato, soft bun',
@@ -21,6 +24,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/borscht.jpg',
         name:'Borscht',
         discription:'Beetroot borsch with bacon and donuts',
@@ -28,6 +32,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/fishPancake.jpg',
         name:'Fish pancakes',
         discription:'Beef, lettuce, pickle, tomato, soft bun',
@@ -35,6 +40,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/hotRolls.jpg',
         name:'Hot rolls',
         discription:'Temporarily unavailable',
@@ -45,6 +51,7 @@
  
  const ar2=[
     {
+        id: uuidv4(),
         src:'./assets/images/avogado.jpg',
         name:'Avocado salad with feta',
         discription:'Ripe avocado, feta cheese, olives and spinach salad',
@@ -52,6 +59,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/camembert.jpg',
         name:'Camembert salad',
         discription:'Baked Camembert cheese with fresh vegetables',
@@ -59,6 +67,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/greekSalad.jpg',
         name:'Greek saladger',
         discription:'Tomato, cucumber, olives, feta, olive oil',
@@ -66,6 +75,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/Guacamole.jpg',
         name:'Guacamole',
         discription:'Mexican guacamole with nachos',
@@ -76,6 +86,7 @@
  ]
  const ar3=[
     {
+        id: uuidv4(),
         src:'./assets/images/RaspberryMousse.jpg',
         name:'Raspberry mousse',
         discription:'Raspberry mousse with cream and raspberry syrup',
@@ -83,6 +94,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/VanillaIceCream.jpg',
         name:'SoVanilla ice creamup',
         discription:'Vanilla ice cream with chocolate filling',
@@ -90,6 +102,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/BrownieWithRaspberries.jpg',
         name:'Brownie with raspberries',
         discription:'Chocolate brownie with fresh raspberries',
@@ -97,6 +110,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/Cheesecake.jpg',
         name:'Cheesecake',
         discription:'Temporarily unavailable',
@@ -104,6 +118,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/BerryIceCream.jpg',
         name:'Berry ice cream',
         discription:'Natural ice cream made from berries',
@@ -114,6 +129,7 @@
  ]
  const ar4=[
     {
+        id: uuidv4(),
         src:'./assets/images/FullEnglishBreakfast.jpg',
         name:'Full English breakfast',
         discription:'Fried eggs, bacon, toast, cherry tomatoes',
@@ -121,6 +137,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/Oatmeal.jpg',
         name:'Oatmeal',
         discription:'Oatmeal with seasonal berries and berry syrup',
@@ -128,6 +145,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/Cheesepancakeswithstrawberryjam.jpg',
         name:'Cheese pancakes with strawberry jam',
         discription:'Fresh cottage cheese pancakes with strawberry jam and sour cream',
@@ -135,6 +153,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/AvocadoToast.jpg',
         name:'Avocado toast',
         discription:'Rye toast with avocado and boiled egg',
@@ -142,6 +161,7 @@
         order:0
     },
     {
+        id: uuidv4(),
         src:'./assets/images/Catfishonpumpkinpuree.jpg',
         name:'Catfish on pumpkin puree',
         discription:'Catfish fillet baked with young potatoes. Served with salad and pumpkin puree',
