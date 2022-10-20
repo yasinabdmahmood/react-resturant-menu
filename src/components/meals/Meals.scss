@@ -1,0 +1,10 @@
+.meals-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    h1 {
+        color: black;
+        text-align: left;
+        padding: 1rem;
+    }
+}
