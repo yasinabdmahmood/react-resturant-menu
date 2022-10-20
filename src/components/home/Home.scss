@@ -1,23 +1,17 @@
 .home-page {
-    width: 100%;
-    min-height: 100vh;
-    margin-bottom: 70px;
-    background-image: url("../../assets/images/mainPicture.jpg");
-    background-size: 140%;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-    padding-top: 100px;
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 70px;
+  background-image: url("../../assets/images/mainPicture.jpg");
+  background-size: 140%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding-top: 100px;
 
-    &:first-child {
-        div {
-            background-color: white;
-            border-radius: 45px;
-            
-         
-        }
-       
+  &:first-child {
+    div {
+      background-color: white;
+      border-radius: 45px;
     }
-
-  
-   
+  }
 }

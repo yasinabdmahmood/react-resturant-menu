@@ -6,11 +6,9 @@ import Catagory from '../catagory/Catagory';
 function Types() {
   const types = useSelector((state) => state.meals);
   return (
-    <div className='type-container'>
+    <div className="type-container">
       <h1>Menue</h1>
-      {types.map(el =>{
-        return <Catagory catagory={el} />
-      })}
+      {types.map((el) => <Catagory catagory={el} />)}
     </div>
   );
 }
