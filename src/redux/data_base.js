@@ -27,7 +27,7 @@ import c4t1 from '../assets/images/FullEnglishBreakfast.jpg';
 import c4t2 from '../assets/images/Oatmeal.jpg';
 import c4t3 from '../assets/images/Cheesepancakeswithstrawberryjam.jpg';
 import c4t4 from '../assets/images/AvocadoToast.jpg';
-import c4t4 from '../assets/images/Catfishonpumpkinpuree.jpg';
+import c4t5 from '../assets/images/Catfishonpumpkinpuree.jpg';
 
 
 
@@ -195,7 +195,7 @@ const ar4 = [
   },
   {
     id: uuidv4(),
-    src: c4t4,
+    src: c4t5,
     name: 'Catfish on pumpkin puree',
     discription: 'Catfish fillet baked with young potatoes. Served with salad and pumpkin puree',
     price: 6.5,
