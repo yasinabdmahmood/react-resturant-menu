@@ -1,0 +1,89 @@
+.home-page {
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 70px;
+  background-image: url("../../assets/images/mainPicture.jpg");
+  background-size: 160%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+
+.home-page .developer-information {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  color: #989898;
+}
+
+.home-page .developer-information h1 {
+  color: black;
+  text-align: left;
+  margin-bottom: 1rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.home-page .developer-information .location {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+
+.home-page .developer-information .location::before {
+  content: url("../../assets/images/geo-alt.svg");
+}
+
+.home-page .developer-information .phone-number {
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+
+.home-page .developer-information .phone-number::before {
+  content: url("../../assets/images/telephone.svg");
+}
+
+.home-page .goBack-wrapper {
+  padding: 0%;
+  border: 0;
+}
+
+.home-page .go-Back {
+  box-shadow: rgba(0, 0, 0, 0.3) 0 3px 8px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  width: 40px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 1;
+  display: block;
+}
+
+.home-page:first-child div {
+  background-color: white;
+  border-radius: 45px;
+}
+
+.home-page .order-display {
+  display: flex !important;
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: rgb(247, 144, 108) !important;
+  border-radius: 50px 50px 0 0 !important;
+  position: fixed !important;
+  bottom: 0 !important;
+  box-sizing: border-box !important;
+  padding: 1rem !important;
+}
+
+.home-page .order-display a {
+  text-decoration: none;
+}
+
+.home-page .order-display span {
+  color: white !important;
+  font-size: 2rem;
+}

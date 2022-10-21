@@ -3,7 +3,7 @@
   min-height: 100vh;
   margin-bottom: 70px;
   background-image: url("../../assets/images/mainPicture.jpg");
-  background-size: 140%;
+  background-size: 160%;
   background-repeat: no-repeat;
   box-sizing: border-box;
   padding-top: 100px;
@@ -40,6 +40,11 @@
         content: url('../../assets/images/telephone.svg');
       }
     }
+  }
+
+  .goBack-wrapper {
+    padding: 0%;
+    border: 0;
   }
 
   .go-Back {

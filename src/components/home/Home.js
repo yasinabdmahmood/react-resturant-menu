@@ -27,7 +27,7 @@ function Home() {
   const navigateBack = () => { navigate(-1); };
   return (
     <div className="home-page">
-      <button type="submit" onClick={navigateBack}>
+      <button className="goBack-wrapper" type="submit" onClick={navigateBack}>
         <img
           className={location.pathname === '/' ? 'hide' : 'go-Back'}
           src={goBack}
