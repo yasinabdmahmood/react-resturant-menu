@@ -1,11 +1,11 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import logger from 'redux-logger';
-import mealsReducer from './dataReduser';
-import typesReducer from './typesReducer';
+import mealReducer from './dataReduser';
+import typeReducer from './typesReducer';
 
 const rootReducer = combineReducers({
-  meals: mealsReducer,
-  types: typesReducer,
+  meals: mealReducer,
+  types: typeReducer,
 
 });
 const store = configureStore({

@@ -1,10 +1,12 @@
 import React from 'react';
-import { Route, Routes,Link,useNavigate,useLocation  } from 'react-router-dom';
+import {
+  Route, Routes, Link, useNavigate, useLocation,
+} from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import Types from '../types/Types';
 import Orders from '../orders/Orders';
 import Meals from '../meals/Meals';
-import goBack from '../../assets/images/arrow-left.svg'
+import goBack from '../../assets/images/arrow-left.svg';
 import './Home.scss';
 
 function Home() {
@@ -13,40 +15,43 @@ function Home() {
   const types = useSelector((state) => state.meals);
   const showOrder = (input) => {
     let bool = false;
-    input.forEach(element => {
-      element.list.forEach(el=>{
-        if(el.order>0){
-          bool=true;
+    input.forEach((element) => {
+      element.list.forEach((el) => {
+        if (el.order > 0) {
+          bool = true;
         }
-      })
+      });
     });
-    return bool
-  }
+    return bool;
+  };
+  const navigateBack = () => { navigate(-1); };
   return (
     <div className="home-page">
-      <img
-      className={location.pathname==='/'? 'hide':'go-Back'}
-       src={goBack}
-       alt='go-back'
-       onClick={() => navigate(-1)} />
-       <div className='developer-information'>
+      <button type="submit" onClick={navigateBack}>
+        <img
+          className={location.pathname === '/' ? 'hide' : 'go-Back'}
+          src={goBack}
+          alt="go-back"
+        />
+      </button>
+      <div className="developer-information">
         <h1>Resturant menu</h1>
-        <span className='location'>
+        <span className="location">
           &nbsp; Shorja , Kirkuk ,Iraq
         </span>
-        <span className='phone-number'>
+        <span className="phone-number">
          &nbsp; +9647507199736
         </span>
-       </div>
+      </div>
       <Routes>
         <Route exact path="/" element={<Types />} />
         <Route exact path="/meals" element={<Meals />} />
         <Route exact path="/orders" element={<Orders />} />
       </Routes>
-      <div className={showOrder(types)? 'order-display':'hide'} >
+      <div className={showOrder(types) ? 'order-display' : 'hide'}>
         <Link to="/orders">
-        <span>Show my order</span>
-        </Link>        
+          <span>Show my order</span>
+        </Link>
       </div>
     </div>
   );

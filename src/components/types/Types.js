@@ -1,6 +1,6 @@
 import React from 'react';
 import './Types.scss';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import Catagory from '../catagory/Catagory';
 
 function Types() {
@@ -8,7 +8,7 @@ function Types() {
   return (
     <div className="type-container">
       <h1>Menue</h1>
-      {types.map((el) => <Catagory catagory={el} />)}
+      {types.map((el) => <Catagory catagory={el} key={el.name} />)}
     </div>
   );
 }

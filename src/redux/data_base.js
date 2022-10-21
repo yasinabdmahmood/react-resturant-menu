@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'uuid';
 // import main catagories image
 import c0 from '../assets/images/hotMeals.jpg';
 import c1 from '../assets/images/saladjpg.jpg';

@@ -1,4 +1,5 @@
 import React from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import './Meals.scss';
 import { useSelector } from 'react-redux';
 import Meal from '../Meal/Meal';
@@ -11,7 +12,7 @@ function Meals() {
   return (
     <div className="meals-container">
       <h1>{CatagoryName}</h1>
-      {meals.map((el) => <Meal meal={el} CatagoryId={CatagoryId} />)}
+      {meals.map((el) => <Meal meal={el} CatagoryId={CatagoryId} key={uuidv4()} />)}
     </div>
   );
 }

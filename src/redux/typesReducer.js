@@ -7,8 +7,7 @@ export const typesReducer = createSlice({
   initialState,
   reducers: {
     setType(state, action) {
-      state = action.payload;
-      return state;
+      return action.payload;
     },
   },
 });
