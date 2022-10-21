@@ -8,6 +8,39 @@
   box-sizing: border-box;
   padding-top: 100px;
 
+  .developer-information{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    color: #989898;
+
+    h1 {
+      color: black;
+      text-align: left;
+      margin-bottom: 1rem;
+      font-family: 'Rubik', sans-serif;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    .location {
+      font-size: 18px;
+      font-family: 'Rubik', sans-serif;
+      &::before {
+        content: url('../../assets/images/geo-alt.svg');
+        
+      }
+    }
+    .phone-number {
+      font-size: 18px;
+      font-family: 'Rubik', sans-serif;
+      &::before {
+        content: url('../../assets/images/telephone.svg');
+        
+      }
+    }
+  }
+
   .go-Back {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -85,7 +118,6 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     cursor: default;
     box-sizing: border-box;
-    vertical-align: middle;
     position: fixed;
     left: 1rem;
     top: 1rem;
@@ -93,7 +125,6 @@
     background-color: white;
     border-radius: 20px;
     z-index: 1;
-    -webkit-box-shadow: 3px 4px 9px 0px rgba(0, 0, 0, 0.75);
     display: block;
   }
 

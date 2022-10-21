@@ -29,6 +29,15 @@ function Home() {
        src={goBack}
        alt='go-back'
        onClick={() => navigate(-1)} />
+       <div className='developer-information'>
+        <h1>Resturant menu</h1>
+        <span className='location'>
+          &nbsp; Shorja , Kirkuk ,Iraq
+        </span>
+        <span className='phone-number'>
+         &nbsp; +9647507199736
+        </span>
+       </div>
       <Routes>
         <Route exact path="/" element={<Types />} />
         <Route exact path="/meals" element={<Meals />} />
