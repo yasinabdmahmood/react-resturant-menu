@@ -23,7 +23,7 @@
 
 ### Video Link
 
-- [Click here](https://drive.google.com/file/d/1VvIjeALtPvCYoudo-fFKRO6J01mEHtho/view?usp=sharing)
+- [Click here](https://youtu.be/8b8e35QREqU)
 
 ## Getting Started
 
