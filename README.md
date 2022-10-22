@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Resturant menu
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+>The webapp funtions as a digital menu for resturants and cafes that allows you to view what is on thier menu whith picture,discription,and price. the user can also start ordering foods and drinks whih desired amount 
 
-## Available Scripts
+![p1](https://user-images.githubusercontent.com/97350474/197334558-b85d4732-8967-40a1-a3d3-93468c17ebd3.png)![p2](https://user-images.githubusercontent.com/97350474/197334571-c8e4c0c6-e9a4-4d8d-a510-6435b0ba989f.png)![p3](https://user-images.githubusercontent.com/97350474/197334633-84d49b40-555d-4c90-a740-cd88695214e9.png)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- Redux
+- SASS
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Live Demo
 
-### `npm run eject`
+- live demo: [Click here](https://aesthetic-queijadas-f18c90.netlify.app)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Video Link
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Click here](https://drive.google.com/file/d/1VvIjeALtPvCYoudo-fFKRO6J01mEHtho/view?usp=sharing)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To get a local copy up and running follow these simple steps:
 
-## Learn More
+- Copy this link `https://github.com/yasinabdmahmood/react-resturant-menu.git`.
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Write `git clone https://github.com/yasinabdmahmood/react-resturant-menu.git`.
+- Go to the repository folder in your command prompt, run `cd name-of-folder`.
+- Run `npm install`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Type these commands into the terminal:
 
-### Code Splitting
+- npm run build
+- Open dist/index.html in your web browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Run the application in local environment
 
-### Analyzing the Bundle Size
+Type this command in your terminal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- npm run start
+- Your web browser will open on localhost
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+👤 **YASEEN ABD ALWAHID**
 
-### Deployment
+- GitHub: [@yasinabdmahmood](https://github.com/yasinabdmahmood)
+- GitLab: [@yasinabdmahmood ](https://gitlab.com/yasinabdmahmood)
+- LinkedIn: [yasinabdmahmood](https://iq.linkedin.com/in/yaseen-abd-alwahid-604968232?trk=people_directory)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contributing
 
-### `npm run build` fails to minify
+Contributions, [issues](https://github.com/yasinabdmahmood/react-resturant-menu/issues), and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+
+- Thanks for  [OddMenu](https://oddmenu.com/) website as the design of the project is inspired by one of thier designs
+
+## 📝 License
+
+This project is not licensed.
