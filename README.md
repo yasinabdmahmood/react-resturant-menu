@@ -1,6 +1,6 @@
 # Resturant menu
 
->The webapp funtions as a digital menu for resturants and cafes that allows you to view what is on thier menu whith picture,discription,and price. the user can also start ordering foods and drinks whih desired amount 
+>The web app functions as a digital menu for restaurants and cafes that allows you to view what is on their menu with pictures, descriptions, and prices. the user can also start ordering foods and drinks with the desired amount. built with React, Redux, and SASS.
 
 ![p1](https://user-images.githubusercontent.com/97350474/197334558-b85d4732-8967-40a1-a3d3-93468c17ebd3.png)![p2](https://user-images.githubusercontent.com/97350474/197334571-c8e4c0c6-e9a4-4d8d-a510-6435b0ba989f.png)![p3](https://user-images.githubusercontent.com/97350474/197334633-84d49b40-555d-4c90-a740-cd88695214e9.png)
 
