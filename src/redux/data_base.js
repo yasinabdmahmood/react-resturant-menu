@@ -1,8 +1,8 @@
 // import main catagories image
-import c0 from '../assets/images/hotMeals.jpg';
-import c1 from '../assets/images/saladjpg.jpg';
-import c2 from '../assets/images/desserts.jpg';
-import c3 from '../assets/images/breackfasts.jpg';
+// import c0 from '../assets/images/hotMeals.jpg';
+// import c1 from '../assets/images/saladjpg.jpg';
+// import c2 from '../assets/images/desserts.jpg';
+// import c3 from '../assets/images/breackfasts.jpg';
 // import meals from first catagory
 import c1t1 from '../assets/images/dumplings.jpg';
 import c1t2 from '../assets/images/soup.jpg';
@@ -205,25 +205,25 @@ const catagories = [
   {
     id: 0,
     name: 'HOT MEALS',
-    src: c0,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/217460674308904.jpg',
     list: ar1,
   },
   {
     id: 1,
     name: 'SALADS',
-    src: c1,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/7108784455317878.jpg',
     list: ar2,
   },
   {
     id: 2,
     name: 'DESSERTS',
-    src: c2,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/204313368551993.jpg',
     list: ar3,
   },
   {
     id: 3,
     name: 'BEAKFASTS',
-    src: c3,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/9610964997582898.jpg',
     list: ar4,
   },
 
