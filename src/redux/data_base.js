@@ -11,10 +11,10 @@
 // import c1t5 from '../assets/images/fishPancake.jpg';
 // import c1t6 from '../assets/images/hotRolls.jpg';
 // import meals from second catagory
-import c2t1 from '../assets/images/avogado.jpg';
-import c2t2 from '../assets/images/camembert.jpg';
-import c2t3 from '../assets/images/greekSalad.jpg';
-import c2t4 from '../assets/images/Guacamole.jpg';
+// import c2t1 from '../assets/images/avogado.jpg';
+// import c2t2 from '../assets/images/camembert.jpg';
+// import c2t3 from '../assets/images/greekSalad.jpg';
+// import c2t4 from '../assets/images/Guacamole.jpg';
 // import meals from third catagory
 import c3t1 from '../assets/images/RaspberryMousse.jpg';
 import c3t2 from '../assets/images/VanillaIceCream.jpg';
@@ -82,7 +82,7 @@ const ar1 = [
 const ar2 = [
   {
     id: 0,
-    src: c2t1,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/598818438392393.jpg',
     name: 'Avocado salad with feta',
     discription: 'Ripe avocado, feta cheese, olives and spinach salad',
     price: 4.9,
@@ -90,7 +90,7 @@ const ar2 = [
   },
   {
     id: 1,
-    src: c2t2,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/1593325156801055.jpg',
     name: 'Camembert salad',
     discription: 'Baked Camembert cheese with fresh vegetables',
     price: 4.5,
@@ -98,7 +98,7 @@ const ar2 = [
   },
   {
     id: 2,
-    src: c2t3,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/2208107208935774.jpg',
     name: 'Greek saladger',
     discription: 'Tomato, cucumber, olives, feta, olive oil',
     price: 5.5,
@@ -106,7 +106,7 @@ const ar2 = [
   },
   {
     id: 3,
-    src: c2t4,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/5768363319109880.jpg',
     name: 'Guacamole',
     discription: 'Mexican guacamole with nachos',
     price: 3.9,
