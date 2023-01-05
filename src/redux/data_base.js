@@ -16,17 +16,17 @@
 // import c2t3 from '../assets/images/greekSalad.jpg';
 // import c2t4 from '../assets/images/Guacamole.jpg';
 // import meals from third catagory
-import c3t1 from '../assets/images/RaspberryMousse.jpg';
-import c3t2 from '../assets/images/VanillaIceCream.jpg';
-import c3t3 from '../assets/images/BrownieWithRaspberries.jpg';
-import c3t4 from '../assets/images/Cheesecake.jpg';
-import c3t5 from '../assets/images/BerryIceCream.jpg';
+// import c3t1 from '../assets/images/RaspberryMousse.jpg';
+// import c3t2 from '../assets/images/VanillaIceCream.jpg';
+// import c3t3 from '../assets/images/BrownieWithRaspberries.jpg';
+// import c3t4 from '../assets/images/Cheesecake.jpg';
+// import c3t5 from '../assets/images/BerryIceCream.jpg';
 // import meals from fourth catagory
-import c4t1 from '../assets/images/FullEnglishBreakfast.jpg';
-import c4t2 from '../assets/images/Oatmeal.jpg';
-import c4t3 from '../assets/images/Cheesepancakeswithstrawberryjam.jpg';
-import c4t4 from '../assets/images/AvocadoToast.jpg';
-import c4t5 from '../assets/images/Catfishonpumpkinpuree.jpg';
+// import c4t1 from '../assets/images/FullEnglishBreakfast.jpg';
+// import c4t2 from '../assets/images/Oatmeal.jpg';
+// import c4t3 from '../assets/images/Cheesepancakeswithstrawberryjam.jpg';
+// import c4t4 from '../assets/images/AvocadoToast.jpg';
+// import c4t5 from '../assets/images/Catfishonpumpkinpuree.jpg';
 
 const ar1 = [
   {
@@ -117,7 +117,7 @@ const ar2 = [
 const ar3 = [
   {
     id: 0,
-    src: c3t1,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/616985337965459.jpg',
     name: 'Raspberry mousse',
     discription: 'Raspberry mousse with cream and raspberry syrup',
     price: 3.25,
@@ -125,7 +125,7 @@ const ar3 = [
   },
   {
     id: 1,
-    src: c3t2,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/651101588824651.jpg',
     name: 'SoVanilla ice creamup',
     discription: 'Vanilla ice cream with chocolate filling',
     price: 2.5,
@@ -133,7 +133,7 @@ const ar3 = [
   },
   {
     id: 2,
-    src: c3t3,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/1257317234410334.jpg',
     name: 'Brownie with raspberries',
     discription: 'Chocolate brownie with fresh raspberries',
     price: 4.75,
@@ -141,7 +141,7 @@ const ar3 = [
   },
   {
     id: 3,
-    src: c3t4,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/34109399042109831.jpg',
     name: 'Cheesecake',
     discription: 'Temporarily unavailable',
     price: 4.99,
@@ -149,7 +149,7 @@ const ar3 = [
   },
   {
     id: 4,
-    src: c3t5,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/75967124396910101.jpg',
     name: 'Berry ice cream',
     discription: 'Natural ice cream made from berries',
     price: 2.25,
@@ -160,7 +160,7 @@ const ar3 = [
 const ar4 = [
   {
     id: 0,
-    src: c4t1,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/9610964997582898.jpg',
     name: 'Full English breakfast',
     discription: 'Fried eggs, bacon, toast, cherry tomatoes',
     price: 6.99,
@@ -168,7 +168,7 @@ const ar4 = [
   },
   {
     id: 1,
-    src: c4t2,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/471313911505389.jpg',
     name: 'Oatmeal',
     discription: 'Oatmeal with seasonal berries and berry syrup',
     price: 3.25,
@@ -176,7 +176,7 @@ const ar4 = [
   },
   {
     id: 2,
-    src: c4t3,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/4236463631551108.jpg',
     name: 'Cheese pancakes with strawberry jam',
     discription: 'Fresh cottage cheese pancakes with strawberry jam and sour cream',
     price: 4.6,
@@ -184,7 +184,7 @@ const ar4 = [
   },
   {
     id: 3,
-    src: c4t4,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/24614957631101014.jpg',
     name: 'Avocado toast',
     discription: 'Rye toast with avocado and boiled egg',
     price: 2.15,
@@ -192,7 +192,7 @@ const ar4 = [
   },
   {
     id: 4,
-    src: c4t5,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/659733877193862.jpg',
     name: 'Catfish on pumpkin puree',
     discription: 'Catfish fillet baked with young potatoes. Served with salad and pumpkin puree',
     price: 6.5,
