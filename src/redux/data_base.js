@@ -4,12 +4,12 @@
 // import c2 from '../assets/images/desserts.jpg';
 // import c3 from '../assets/images/breackfasts.jpg';
 // import meals from first catagory
-import c1t1 from '../assets/images/dumplings.jpg';
-import c1t2 from '../assets/images/soup.jpg';
-import c1t3 from '../assets/images/burger.jpg';
-import c1t4 from '../assets/images/borscht.jpg';
-import c1t5 from '../assets/images/fishPancake.jpg';
-import c1t6 from '../assets/images/hotRolls.jpg';
+// import c1t1 from '../assets/images/dumplings.jpg';
+// import c1t2 from '../assets/images/soup.jpg';
+// import c1t3 from '../assets/images/burger.jpg';
+// import c1t4 from '../assets/images/borscht.jpg';
+// import c1t5 from '../assets/images/fishPancake.jpg';
+// import c1t6 from '../assets/images/hotRolls.jpg';
 // import meals from second catagory
 import c2t1 from '../assets/images/avogado.jpg';
 import c2t2 from '../assets/images/camembert.jpg';
@@ -31,7 +31,7 @@ import c4t5 from '../assets/images/Catfishonpumpkinpuree.jpg';
 const ar1 = [
   {
     id: 0,
-    src: c1t1,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/4935845107510187.jpg',
     name: '"Homemade" dumplings',
     discription: 'Vareniki with mashed potatoes and fried chanterelles',
     price: 4.5,
@@ -39,7 +39,7 @@ const ar1 = [
   },
   {
     id: 1,
-    src: c1t2,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/362243826136565.jpg',
     name: 'Soup',
     discription: 'Potatoes, carrots, onions, green onions',
     price: 4.3,
@@ -47,7 +47,7 @@ const ar1 = [
   },
   {
     id: 2,
-    src: c1t3,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/7782510771571853.jpg',
     name: 'Burger',
     discription: 'Beef, lettuce, pickle, tomato, soft bun',
     price: 5.9,
@@ -55,7 +55,7 @@ const ar1 = [
   },
   {
     id: 3,
-    src: c1t4,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/126628348688563.jpg',
     name: 'Borscht',
     discription: 'Beetroot borsch with bacon and donuts',
     price: 4.6,
@@ -63,7 +63,7 @@ const ar1 = [
   },
   {
     id: 4,
-    src: c1t5,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/538855891576605.jpg',
     name: 'Fish pancakes',
     discription: 'Beef, lettuce, pickle, tomato, soft bun',
     price: 6.5,
@@ -71,7 +71,7 @@ const ar1 = [
   },
   {
     id: 5,
-    src: c1t6,
+    src: 'https://odm-fs.fra1.digitaloceanspaces.com/img/338726249821619.jpg',
     name: 'Hot rolls',
     discription: 'Temporarily unavailable',
     price: 4.9,
