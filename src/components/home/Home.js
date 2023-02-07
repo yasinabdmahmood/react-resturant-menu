@@ -48,7 +48,7 @@ function Home() {
         <Route exact path="/meals" element={<Meals />} />
         <Route exact path="/orders" element={<Orders />} />
       </Routes>
-      <div className={showOrder(types) ? 'order-display' : 'hide'}>
+      <div className={showOrder(types) && location.pathname !== '/orders' ? 'order-display' : 'hide'}>
         <Link to="/orders">
           <span>Show my order</span>
         </Link>
