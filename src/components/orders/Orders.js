@@ -1,4 +1,5 @@
 import React from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import Meal from '../Meal/Meal';
@@ -31,7 +32,7 @@ function Orders() {
     <div className="meals-container">
       <h1>My order</h1>
       {orderedMeal.length > 0
-        ? orderedMeal.map((el) => <Meal meal={el} CatagoryId={el.CatagoryId} key={el.CatagoryId} />)
+        ? orderedMeal.map((el) => <Meal meal={el} CatagoryId={el.CatagoryId} key={uuidv4()} />)
         : emptyOrder}
     </div>
   );
